@@ -1,0 +1,6 @@
+FROM ollama/ollama:latest
+
+# Expose the API port
+EXPOSE 11434
+
+# The base image's entrypoint handles starting the server.
